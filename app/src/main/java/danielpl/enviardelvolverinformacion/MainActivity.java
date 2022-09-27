@@ -74,7 +74,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, createDivAtivity.class);
-                startActivityForResult(intent,DIRECCIONES);
+                //startActivityForResult(intent,DIRECCIONES);
+                launcherDirecciones.launch(intent);
             }
         });
     }
